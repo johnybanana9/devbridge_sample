@@ -1,0 +1,174 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Site</title>
+  <meta name="description" content="The Site">
+  <meta name="author" content="Simas Jasiūnas">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#">menu link</a>
+        <a href="#">menu link</a>
+        <a href="#">menu link</a>
+      </nav>
+
+      <h1>The Site</h1>
+
+      <nav class="primary" id='primaryNav'>
+        <ul>
+          <li class="dropdown">
+            <a href="#" id="dd">menu link</a>
+            <div id="mainDropdown" class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 4</a>
+              <a href="#">Link 5</a>
+            </div>
+          </li>
+          <li><a href="javascript:void(0)">menu link</a></li>
+          <li><a href="javascript:void(0)">menu link</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main row">
+    <div class="main col-8">
+      <article>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis fermentum odio, nec interdum velit interdum ac. Integer imperdiet mi a nibh condimentum, id finibus metus efficitur. Nulla eget felis lacinia nulla aliquam porta. Nunc ullamcorper sed mi vel fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus, lacus eu consequat dapibus, nunc velit ultrices dolor, at auctor sem massa sit amet augue. Proin ornare odio a nulla rhoncus, ac tempus risus elementum. Suspendisse a nunc sem. Nunc auctor, elit vitae vulputate luctus, dolor enim elementum dolor, vitae aliquet ex metus eu nisl. Fusce a magna velit. Quisque sapien quam, egestas vel tincidunt rutrum, sagittis eu lorem.
+        </p>
+        <p>
+          Nunc tincidunt lacus sed purus semper molestie. Etiam sodales blandit lorem, vel mattis est pellentesque lobortis. Mauris semper felis at sodales commodo. Mauris iaculis volutpat dolor, a vulputate mi porta finibus. Proin a arcu interdum, fringilla nunc sit amet, laoreet sapien. Mauris ullamcorper efficitur tortor ut suscipit. Phasellus scelerisque sed ante vitae faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut id lacus fringilla, ultrices turpis sed, sollicitudin magna. Nulla eleifend massa a magna posuere auctor. Sed cursus velit id sapien fermentum, at vulputate est vulputate.
+        </p>
+        <p>
+          Nunc tincidunt lacus sed purus semper molestie. Etiam sodales blandit lorem, vel mattis est pellentesque lobortis. Mauris semper felis at sodales commodo. Mauris iaculis volutpat dolor, a vulputate mi porta finibus. Proin a arcu interdum, fringilla nunc sit amet, laoreet sapien. Mauris ullamcorper efficitur tortor ut suscipit. Phasellus scelerisque sed ante vitae faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut id lacus fringilla, ultrices turpis sed, sollicitudin magna. Nulla eleifend massa a magna posuere auctor. Sed cursus velit id sapien fermentum, at vulputate est vulputate.
+        </p>
+      </article>
+
+      <section class="row">
+        <div class="col-6">
+          <div class="box">
+            Etiam sodales blandit lorem, vel mattis est pellentesque lobortis. Mauris semper felis at sodales commodo.
+            Mauris iaculis volutpat dolor, a vulputate mi porta finibus. Proin a arcu interdum, fringilla nunc sit amet,
+            laoreet sapien. Mauris ullamcorper efficitur tortor ut suscipit. Phasellus scelerisque sed ante vitae faucibus.
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="box last">
+            <h3>Lorem ipsum dolor sit amet</h3>
+              <a href="#">Lorem ipsum dolor sit amet</a>
+              <hr>
+              <a href="#">consectetur adipiscing elit</a>
+              <hr>
+              <a href="#">Suspendisse iaculis fermentum</a>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+
+    <aside class="col-4">
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      <hr>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis fermentum odio, nec interdum velit interdum ac. Integer imperdiet mi a nibh condimentum, id finibus metus efficitur. Nulla eget felis lacinia nulla aliquam porta. Nunc ullamcorper sed mi vel fringilla.
+      </p>
+
+      <div class="contact">
+        <div id="response"></div>
+        <form onsubmit="return validateForm()" method="post" name="contactForm" action=".">
+          <span>First name:</span>
+          <input type="text" name="firstname" placeholder="Enter your name" autocomplete='given-name'>
+          <span>Last name:</span>
+          <input type="text" name="lastname" placeholder="Enter your last name" autocomplete='family-name'>
+          <span>Message:</span>
+          <textarea name="message" rows="10"></textarea>
+          <span><input type="submit" value="SUBMIT"></span>
+        </form>
+      </div>
+    </aside>
+
+  </div>
+
+  <section>
+
+    <div class="main row columns">
+
+      <div class="col-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          iaculis fermentum odio, nec interdum velit interdum ac. Integer
+          imperdiet mi a nibh condimentum, id finibus metus efficitur. Nulla eget
+          felis lacinia nulla aliquam porta. Nunc ullamcorper sed mi vel fringilla.
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas.
+      </div>
+
+      <div class="col-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        iaculis fermentum odio, nec interdum velit interdum ac. Integer
+        imperdiet mi a nibh condimentum, id finibus metus efficitur. Nulla eget
+        felis lacinia nulla aliquam porta. Nunc ullamcorper sed mi vel fringilla.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas.
+      </div>
+
+      <div class="col-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        iaculis fermentum odio, nec interdum velit interdum ac. Integer
+        imperdiet mi a nibh condimentum, id finibus metus efficitur. Nulla eget
+        felis lacinia nulla aliquam porta. Nunc ullamcorper sed mi vel fringilla.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas.
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <a href="#">menu link</a> |
+    <a href="#">menu link</a> |
+    <a href="#">menu link</a> |
+    <a href="#">menu link</a> |
+    <a href="#">menu link</a> |
+    <a href="#">menu link</a>
+    <div class="row">
+      <div class="col-8">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis fermentum odio, nec interdum velit interdum ac. Integer imperdiet mi a nibh condimentum, id finibus metus efficitur. Nulla eget felis lacinia nulla aliquam porta. Nunc ullamcorper sed mi vel fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam dapibus, lacus eu consequat dapibus, nunc velit ultrices dolor, at auctor sem massa sit amet augue. Proin ornare odio a nulla rhoncus, ac tempus risus elementum. Suspendisse a nunc sem. Nunc auctor, elit vitae vulputate luctus, dolor enim elementum dolor, vitae aliquet ex metus eu nisl. Fusce a magna velit. Quisque sapien quam, egestas vel tincidunt rutrum, sagittis eu lorem.</p>
+    </div>
+    <div class="col-4">
+
+    <span>The Site</span>
+  </div>
+</div>
+</footer>
+
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
