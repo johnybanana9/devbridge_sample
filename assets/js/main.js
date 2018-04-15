@@ -16,19 +16,19 @@ function removeClass(ele,cls) {
 }
 
 function mouseOver() {
-    let el = document.getElementById("dd");
+    var el = document.getElementById("dd");
     addClass(el, 'active');
 }
 
 function mouseOut() {
-  let el = document.getElementById("dd");
+  var el = document.getElementById("dd");
   removeClass(el, 'active');
 }
 function validateForm() {
-    let f = document.contactForm.firstname.value;
-    let l = document.contactForm.lastname.value;
-    let msg = document.contactForm.message.value;
-    let errors = '';
+    var f = document.contactForm.firstname.value;
+    var l = document.contactForm.lastname.value;
+    var msg = document.contactForm.message.value;
+    var errors = '';
 
     if (f.length < 5) {
         errors += '<br>First name must be filled out!';
